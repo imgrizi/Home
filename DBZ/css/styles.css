@@ -1,0 +1,20 @@
+body{
+    width: auto;
+    height: auto;
+    margin: 0;
+    background-size:100%;
+ }
+ .gohan{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 7%;
+    bottom: 45%;
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 10%;
+    bottom: 14%;
+}
