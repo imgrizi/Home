@@ -10,6 +10,9 @@ body{
     position: absolute;
     left: 7%;
     bottom: 45%;
+    animation:animaFight 7s forwards ;
+    animation-delay: 1s;
+    
 }
 .cell{
     width: 150px;
@@ -17,4 +20,132 @@ body{
     position: absolute;
     right: 10%;
     bottom: 14%;
+    animation:animaFight2 7s forwards;
+    animation-delay: 1s;
+    
+
 }
+.punch{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right:40%;
+    bottom: 45%;
+    animation: animaVersus 9s forwards ;
+    animation-delay: 3s;
+    
+      
+}
+.kick{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left:40%;
+    bottom: 55%;
+   animation:animaVersus2 9s forwards;
+   animation-delay: 3s;
+   
+}
+.finish{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:50%;
+    bottom: 10%;
+    animation: animaFinish 4s forwards;
+    
+}
+@keyframes animaFight{
+    0%{
+        position: absolute;
+        left: 7%;
+        bottom: 45%;
+    }
+    99%{
+        left:40%;
+        bottom:55%;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes animaFight2{
+    0%{
+        position: absolute;
+        right: 10%;
+        bottom: 14%;
+    }
+    99%{
+        
+        right:40%;
+        bottom: 55%;
+        
+        
+    
+    }
+    100%{
+        opacity: 0;; 
+    }
+}
+@keyframes animaFinish{
+    from{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left:50% ;
+        bottom: 10%;
+    }
+    to{
+        opacity: 0;
+    }
+    
+}
+@keyframes animaVersus{
+    from{
+        display: none;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right:40%;
+        bottom: 45%;
+        opacity: 0;
+        
+    }
+    
+    to{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right:40%;
+        bottom: 45%;
+        opacity: 1;
+        
+    }
+}
+
+@keyframes animaVersus2{
+    from{
+        display: none;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left:40%;
+        bottom: 50%;
+        opacity: 0;
+        
+        
+        
+        
+       
+    }
+    to{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left:40%;
+        bottom: 50%;
+        opacity: 1;
+    }
+}
+
+   
