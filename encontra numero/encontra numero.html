@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var lista=[7,5,9,66,9,5,36,11];
+
+        var escolhido = lista[6];
+
+        //document.write(escolhido);
+
+        procurar=11;
+        encontrado=0;
+        for(i=0; i<=7; i=i+1){
+            
+            lido=lista[i];
+            if(lido==procurar){
+                encontrado=encontrado+1;
+            }
+            document.write(lido);
+            document.write("<br>");
+            
+
+        }
+
+        if(encontrado==0){
+            document.write("nao esta na lista");
+        }else{
+            document.write("esta na lista");
+        }
+        soma=0;
+        for(i=0; i<=7; i=i+1){
+            lido=lista[i];
+            soma=soma+lido;
+        }
+        
+        media=soma/7;
+        document.write("Média= "+media);
+        
+    </script>
+</body>
+</html>
