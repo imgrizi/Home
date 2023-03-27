@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
     <title>Exercício 6</title>
 </head>
-<body>
+<body onresize="normalizaMenuMobile()">
     <nav class="menu-mobile">
-        <i class="fa-sharp fa-solid fa-bars icon-menu-principal" onclick="mostraConteudoMenu()"></i>
+        <span id="texto-menu"onclick="mostraConteudoMenu()" >
+        <i class="fa-sharp fa-solid fa-bars icon-menu-principal"></i>
+    </span>
         <ul id="items-mobile">
             <li>
                 <a>Link 1</a>
