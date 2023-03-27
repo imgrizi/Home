@@ -1,3 +1,11 @@
 function mostraConteudoMenu(){
-    document.getElementById("menu_mobile)").style.display="block";
+    document.getElementById("items-mobile").style.display="block";
+
+    if( document.getElementById("items-mobile").style.display=="none")
+    {
+       document.getElementById("items-mobile").style.display="block"
+    }
+    else{
+        document.getElementById("items-mobile").style.display="none"
+    }
 }
