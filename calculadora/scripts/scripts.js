@@ -13,6 +13,8 @@ function escolheNumero(numero_escolhido){
     }
     document.querySelector('.resultado').innerText+=numero_escolhido;
     document.querySelector(".resultado").innerText+="="+resultado;
+    document.querySelector("input[name=parcela1]").value=resultado;
+    ocument.querySelector("input[name=parcela2]").value="";
 
 }
 
