@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        calçculaMedia();
+        
+        function calculaMedia(){
+        var lista=[7,5,9,66,9,5,36,11];
+        soma=0;
+        for(i=0; i<=7; i=i+1){
+            lido=lista[i];
+            soma=soma+lido;
+        }
+        
+        media=soma/7;
+        document.write("Média= "+media);
+    }
+
+    </script>
+
+</body>
