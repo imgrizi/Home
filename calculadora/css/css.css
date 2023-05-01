@@ -1,0 +1,29 @@
+.wrapper{
+    width:70%;
+    margin:0 15%;
+
+    border:1px solid gray;
+    padding: 20px;
+    float: left;
+}
+
+.algoritmos{
+    width:70%;
+    float: left;
+}
+
+.operadores{
+    width:30%;
+    float: left;
+}
+
+.resultado{
+    width:100%;
+    float: left;
+}
+
+.algoritmos button,.operadores button{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
