@@ -1,0 +1,47 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: black;
+}
+
+.wrapper td{
+color: aqua;
+}
+
+
+textarea{
+
+    width: 300px;
+    height: 150px;
+    border-radius: 4px;
+    border: 10px;
+    border-color: aqua;
+    background-color: black;
+    color: aqua;
+}
+
+.contador{
+    color: aqua;
+}
+
+
+
+.barra-progresso{
+width:50px;
+height: 20px;
+}
+
+.barra-verde{
+    width: 75px;
+    background: rgb(97, 233, 97);
+}
+
+.barra-azul{
+    width: 150px;
+    background: aqua;
+}
+
+.barra-vermelho{
+    width: 310px;
+    background: red;
+}
