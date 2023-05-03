@@ -1,0 +1,74 @@
+body{
+    background-color: orange;
+}
+
+.slick.dots li.slick-active button:before{
+    color: yellow;
+}
+
+.slick.dots li button:before{
+    color: green;
+}
+.wrapper{
+width: 100%;
+height: 100%;
+}
+
+.cx-1{
+    width: 500px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+.cx-2{
+    width: 500px;
+    height: 150px;
+overflow: hidden;
+position: relative;
+}
+.cx-3{
+    width: 500px;
+    height: 150px;
+overflow: hidden;
+position: relative;
+}
+.your-class p{
+position: absolute;
+color: white;
+
+}
+
+.your-class{
+    width: 500px;
+    height: 150px;
+    
+    margin-left:40%;
+    margin-top: 20%;
+}
+
+.new{
+    width: 250px;
+    height: 75px;
+    margin-left: 40%;
+    margin-top: 25%;
+    background-color: aqua;
+}
+
+.cx-4{
+    width: 250px;
+    height: 75px;
+    overflow: hidden;
+    position: relative;
+}
+.cx-5{
+    width: 250px;
+    height: 75px;
+overflow: hidden;
+position: relative;
+}
+.cx-6{
+    width: 250px;
+    height: 75px;
+overflow: hidden;
+position: relative;
+}
