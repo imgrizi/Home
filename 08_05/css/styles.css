@@ -1,0 +1,7 @@
+.o-meu-menu .navbar{
+    background-color: aqua !important;
+}
+
+ .carousel-indicators [data-bs-target]{
+     background-color: red;
+ }
