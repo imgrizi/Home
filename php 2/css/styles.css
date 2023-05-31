@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+ul,li{
+    color: white;
+}
+
+h2{
+    color:white;
+}
+
+.par{
+    background-color: black;
+}
+
+.impar{
+background-color: red;
+    
+}
