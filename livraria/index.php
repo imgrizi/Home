@@ -1,3 +1,8 @@
+<?php 
+     include('config.php');
+     include('funcoes.php'); 
+     session_start();
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
@@ -11,50 +16,51 @@
 <div id="container">
 	<div id="header">
 
-    <?php include('menu.php');?>
+    <?php include('menu.php'); ?>
 
 	</div>
 
 	<div id="wrap">
     	<div id="navcontainer">
-      <?php include('left.php');?>
-            </div>
+        <?php include('left.php'); ?>  
+      </div>
     	
       <div id="content">
-    		<?php
-        //verificar se varia vel GET com o nome Area,existe
-        if(isset($_GET['area'])){
-          $area_escolhida=$_GET['area'];
+    		<?php 
 
-          if($area_escolhida=='lista-de-livros'){
-            include('lista.php');
-          }elseif($area_escolhida=='registo'){
-            include('registo.php');
-          }
-          elseif($area_escolhida=='contactos'){
-            include('contactos.php');
-          }
-          else{
-            include('erro.php');
+          // verificar se a variavel de GET com o nome Area, existe
+          if(isset($_GET['area'])){
+            $area_escolhida= $_GET['area'];
+          
+            if($area_escolhida == 'lista-de-livros'){
+              include('lista.php');
+            
+            } else if($area_escolhida == 'contactos') {
+              include('contactos.php');
 
-          }
-        }  
-          else{
-        include('home.php');
-      }
+            } else if($area_escolhida == 'registo'){
+              include('registo.php');
 
-      
-      ?>
+            } else {
+              include('erro.php'); 
+
+            }
+          } else {
+            include('home.php'); 
+          }
+          
+        ?>
+
     	</div>
 
 
     	<div id="subcontent">
-      <?php include('right.php')?>    		
+        <?php include('right.php'); ?>
       </div>
 
     
     	<div id="footer">
-    		<?php include('footer.php')?>
+    		<?php include('footer.php'); ?>
     	</div>
   </div>
 </div>
