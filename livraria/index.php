@@ -11,6 +11,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<meta charset="UTF-8">
 </head>
 <body>
 <div id="container">
@@ -64,5 +65,7 @@
     	</div>
   </div>
 </div>
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>

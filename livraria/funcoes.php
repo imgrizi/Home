@@ -16,4 +16,13 @@ function getAutores($ligacao, $id_livro){
         return $lista_autores;
 
 }
+    function getEditoras($ligacao){
+            $query="select * from editoras";
+            $resultado = mysqli_query($ligacao, $query);
+
+            return $resultado;
+
+
+    }
+
 ?>

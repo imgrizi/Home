@@ -23,13 +23,13 @@
                 <?php echo utf8_encode($linha['titulo_livro']); ?>
             </h2>
             <p>
-                <?php echo utf8_encode ($linha['nome_editora']); ?>
+                <?php echo utf8_encode($linha['nome_editora']); ?>
             </p>
             <p>
-                <?php echo utf8_encode ($linha['descricao_livro']); ?>
+                <?php echo utf8_encode($linha['descricao_livro']); ?>
             </p>
             <p>
-                <?php echo utf8_encode ($linha['preco_livro']); ?> Eur
+                <?php echo utf8_encode($linha['preco_livro']); ?> Eur
             </p>
 
             <?php

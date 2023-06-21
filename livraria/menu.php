@@ -2,8 +2,8 @@
     	 <div id="menu-container"> 
             <ul>  
                 <li><a href="index.php">Livraria Online</a></li>          
-                <li><a href="index.php">Home<span>Ir para a homepage</span></a></li> 
-                <li><a href="index.php?area=lista-de-livros">Livraria<span>procure um livro</span></a></li> 
+                <li><a href="index.php">Home<span> Ir para a homepage</span></a></li> 
+                <li><a href="index.php?area=lista-de-livros">Livraria<span> procure um livro</span></a></li> 
 
                 <?php
                 if(isset($_SESSION['nome_do_cliente'])){?>
